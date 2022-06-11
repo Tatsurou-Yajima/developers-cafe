@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <link href="../scss/bootstrap.min.css" rel="stylesheet">
+    <link href="../scss/custom.css" rel="stylesheet">
+    <title>Developer's Cafe</title>
+</head>
+
+<body class="bg-primary">
+    <div class="container mb-5">
+        <nav class="navbar bg-primary">
+            <div class="container-fluid">
+                <a class="font-caveat text-brown navbar-brand font-nav link-secondary" href="../index.html">Developer's Cafe</a>
+            </div>
+        </nav>
+        <div class="row mb-4 mt-2">
+            <h2 class="h2 text-white text-center">
+                ご注文ありがとうございます！
+            </h2>
+            <p class="text-white text-center h5">
+                当店はセルフサービスです。
+            </p>
+            <p class="text-white text-center h5">
+                ご自身でカフェラテを作ってみましょう！
+            </p>
+        </div>
+        <div class="card bg-white">
+            <div class="card-header bg-white">
+                <h5 class="card-title p pt-2">
+                    <span class="badge bg-secondary">STEP 1</span>
+                    <span class="p">&ensp;牛乳とドリップコーヒーを同時に注ぐ</span>
+                </h5>
+            </div>
+            <div class="card-body">
+                <img src="../images/how-to-make-drink.png" class="card-img-top" alt="">
+                <p class="card-text">
+                    <div class="d-flex justify-content-center">
+                        <button type="button" class="btn btn-light mx-auto px-5" onclick="redirectToComplete()">
+                            STEP 1 を実行する
+                        </button>
+                    </div>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="../js/functions.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+.font-caveat {
+    font-family: 'Caveat', cursive;
+}
+
+.text-brown {
+    color: #c88e5b;
+}
+
+.text-h1-top {
+    font-size: 5rem;
+    margin-left: -10px;
+    margin-top: 80px;
+}
+
+.coffee-cup {
+    height: 280px;
+}
+
+.font-nav {
+    font-size: 30px;
+}
+
+.card-image {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-a:hover {
+    opacity: 0.7;
+    transition: 0.8s;
+}
+
+.card-select {
+    width: 400px;
+}
+
+.step {
+    font-family: 'Times New Roman', Times, serif;
+}
